@@ -1,3 +1,57 @@
 body {
     text-align: center;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+#scoreBar {
+  color: #0a3d62;
+  margin-left:  10%;
+  width: 80%;
+  height : 50px;
+  background-color: #78e08f;
+  border-radius: 10px;
+}
+
+.container {
+  width: 80%;
+  height: auto;
+  padding:15px 0 0 50px;
+}
+
+.container .lives {
+  float:left;
+}
+
+.container .lvl {
+  float:right;
+}
+
+.popup {
+  width: 300px;
+  height: auto;
+  background: #2f3640;
+  color: #f5f6fa;
+  border-radius: 20px;
+  margin : 200px 0 0 39%;
+  position: absolute;
+  box-shadow: 10px 5px 10px #000;
+  animation-name:animatetop;
+  animation-duration: 0.4s;
+  display: none;
+}
+
+.popup .play-again {
+  font-family: 'ZCOOL KuaiLe', cursive;
+  background: #44bd32;
+  color: #f5f6fa;
+  width: 200px;
+  height: auto;
+  font-size: 1.1em;
+  margin : 10px;
+  border-radius: 10px;
+}
+
+@keyframes animatetop {
+  from {top:-200px; opacity:0}
+  to {top:0; opacity:1}
 }

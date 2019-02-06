@@ -4,8 +4,24 @@
     <meta charset="UTF-8">
     <title>Effective JavaScript: Frogger</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe" rel="stylesheet">
 </head>
 <body>
+  <!-- Game bar -->
+  <section id="scoreBar">
+    <div class="container">
+        <span class="lives" ></span>
+        <span class="score" ></span>
+        <span class="lvl">LEVEL : <span class="level"></span></span>
+    <div>
+  </section>
+  <!-- Popup Box -->
+  <div class="popup">
+    <h1>Good job !</h1>
+    <p>You have reached level <span class="pop-lvl"> 5 </span></p>
+    <p>Score : <span class="pop-score"> 5 </span></p>
+    <button class="play-again"> Play Again </button>
+  </div>
     <script src="js/resources.js"></script>
     <script src="js/app.js"></script>
     <script src="js/engine.js"></script>

@@ -92,6 +92,7 @@ var Engine = (function(global) {
     function updateEntities(dt) {
         allEnemies.forEach(function(enemy) {
             enemy.update(dt);
+
         });
         player.update();
     }
@@ -173,7 +174,8 @@ var Engine = (function(global) {
         'images/water-block.png',
         'images/grass-block.png',
         'images/enemy-bug.png',
-        'images/char-boy.png'
+        'images/char-boy.png',
+        'images/enemy-car.png'
     ]);
     Resources.onReady(init);
 
