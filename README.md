@@ -1,4 +1,4 @@
-# Classic Arcade Game Clone Project
+# Classic Arcade Game 
 [Udacity](https://www.udacity.com) FEND project implemented using JavaScript OOP , HTML5 Canvas .
 ## Instructions
 try [Demo](https://eltantawye.github.io/arcade-game/index) .
